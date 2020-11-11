@@ -5,6 +5,7 @@
   color: rgb(253, 216, 170);
   border: 1px solid rgb(241, 188, 145);
   border-radius: 5px;
+  box-shadow: 0px 0px 39px -12px rgb(241, 188, 145);
 }
 
 .list {
@@ -154,9 +155,12 @@
   border: 1px solid rgb(241, 188, 145);
   border-radius: 5px;
   padding: 30px;
+  box-shadow: 0px 0px 39px -12px rgb(241, 188, 145);
 }
 
 .about_title {
+  width: 350px;
+  margin: 0 auto;
   text-align: center;
-  letter-spacing: 1rem;
+  letter-spacing: 2.4rem;
 }
