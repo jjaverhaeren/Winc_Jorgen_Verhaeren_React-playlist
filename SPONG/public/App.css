@@ -1,0 +1,166 @@
+.Container {
+  margin: 50px auto;
+  background-color: rgb(75, 13, 16);
+  width: 630px;
+  color: rgb(253, 216, 170);
+  border: 1px solid rgb(241, 188, 145);
+  border-radius: 5px;
+  box-shadow: 0px 0px 39px -12px rgb(241, 188, 145);
+}
+
+.list {
+  width: 600px;
+  padding: 10px;
+}
+
+.header {
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.list_id {
+  display: none;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.form {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+}
+.input_song,
+.input_artist,
+.input_genre,
+.input_rating,
+.sort {
+  background-color: rgb(253, 216, 170);
+}
+
+.list_song,
+.input_name,
+.header_title {
+  width: 175px;
+  margin: 2px 5px;
+}
+
+.list_artist,
+.input_artist,
+.header_artist {
+  width: 150px;
+  margin: 2px 5px;
+}
+
+.list_genre,
+.input_genre,
+.header_genre {
+  width: 70px;
+  margin: 2px 5x;
+}
+
+.list_rating,
+.input_rating,
+.header_rating {
+  width: 70px;
+  margin: 2px 5px;
+}
+
+.input_sort {
+  width: 100px;
+  margin: 0;
+}
+
+.add-button {
+  background-color: rgb(205, 31, 20);
+  color: white;
+}
+
+.trashbin {
+  height: 17px;
+  width: auto;
+}
+
+.nav {
+  /* border: 2px solid white; */
+  width: 800px;
+  margin: 0px auto;
+  padding: 0px 0px;
+  color: rgb(253, 216, 170);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 
+.title_container {
+} */
+
+.social {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_home {
+  text-decoration: none;
+}
+
+.spong_h1 {
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 1.2rem;
+}
+
+.spong_h4 {
+  text-decoration: none;
+  font-size: 8px;
+}
+
+.social img {
+  width: 50px;
+  height: auto;
+  margin: 0px 20px;
+}
+
+.about {
+  margin: 50px auto;
+  background-color: rgb(75, 13, 16);
+  width: 500px;
+  color: rgb(253, 216, 170);
+  border: 1px solid rgb(241, 188, 145);
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 0px 39px -12px rgb(241, 188, 145);
+}
+
+.about_title {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2.4rem;
+}
